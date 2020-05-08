@@ -1,0 +1,2 @@
+# tempMonitor
+Monitoring the temperature of a computer server room is a critical task to ensure the performance of the server is not disturbed by excessive heat. Designed and implemented a microcontroller-based room temperature monitoring system using the Atmel AT89C51 microcontroller and National Semiconductor's LM35 temperature sensor. The system raises an alarm when the room temperature of computer server room is above threshold, which is 28°C. 
