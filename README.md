@@ -22,6 +22,7 @@ Generally, the daily computer server room's temperature is affected by several f
   ADC0804 is an 8 bit successive approximation analogue to digital converter from National semiconductors. The features of ADC0804 are  differential analogue voltage inputs, 0-5V input voltage range, no zero adjustment, built in clock generator, reference voltage can be externally adjusted to convert smaller analogue voltage span to 8 bit resolution etc. The pin out diagram of ADC0804 is shown above.
   
   The voltage at Vref/2  (pin9)  of ADC0804 can be externally adjusted  to convert smaller input voltage spans to full 8 bit resolution. Vref/2 (pin9) left open means input voltage span is 0-5V and step size is 5/255=19.6V. Have a look at the table below for different Vref/2 voltages and corresponding analogue  input voltage spans.
+  
   ![table](http://1.bp.blogspot.com/-Cm5-xRz7kwc/Te-m7NFvsrI/AAAAAAAADC8/NHn58EJapGk/s400/ADC0804%2BChip%2Bstep%2Bsize%2Bcalculation%2BADC0804%2Bhas%2Bresolution%2Bof%2B8%2Bbits.jpg)
   
   We've connected pin9 to 1.28V to match the step size of ADC to that of the LM35 Senor(10 mV).
